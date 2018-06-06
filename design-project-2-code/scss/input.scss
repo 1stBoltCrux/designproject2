@@ -3,6 +3,8 @@
   background-position: center;
 }
 
+$lightyellow: #F4EEDC;
+
 body {
   margin: 0;
 }
@@ -10,7 +12,7 @@ body {
 .wrapper {
   margin: auto;
   width: 320px;
-  background-color: #F4EEDC;
+  background-color: $lightyellow
 }
 
 .mobile-logo {
@@ -105,6 +107,15 @@ background-image: url(../imgs/saw.svg);
 }
 
 .footer {
+  display: flex;
+  align-items: center;
   height: 120px;
-  background-color: #494842;
+  background-color: $lightyellow;
+  background-image: url(../imgs/footer.svg);
+}
+
+.footer p {
+  color: #cfcdc6;
+  font-family: "Futura", sans-serif;
+    margin-left: 2%;
 }

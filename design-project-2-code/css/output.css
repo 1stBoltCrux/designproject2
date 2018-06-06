@@ -92,7 +92,15 @@ body {
   background-size: 145%; }
 
 .footer {
+  display: flex;
+  align-items: center;
   height: 120px;
-  background-color: #494842; }
+  background-color: #F4EEDC;
+  background-image: url(../imgs/footer.svg); }
+
+.footer p {
+  color: #cfcdc6;
+  font-family: "Futura", sans-serif;
+  margin-left: 2%; }
 
 /*# sourceMappingURL=output.css.map */
