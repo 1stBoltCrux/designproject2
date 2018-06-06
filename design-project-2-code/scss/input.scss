@@ -3,6 +3,11 @@
   background-position: center;
 }
 
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+}
+
 $lightyellow: #F4EEDC;
 
 body {
@@ -54,11 +59,10 @@ background-image: url(../imgs/saw.svg);
   height: 120px;
   background-image: url(../imgs/amenitiesbutton.svg);
   width: 100%;
-}
-
-.amenities-button:hover {
-  background-image: url(../imgs/amenitiesbutton-active.svg);
-  cursor: pointer;
+  &:hover {
+    background-image: url(../imgs/amenitiesbutton-active.svg);
+    cursor: pointer;
+  }
 }
 
 .amenities-image {
@@ -73,11 +77,10 @@ background-image: url(../imgs/saw.svg);
   height: 120px;
   background-image: url(../imgs/ourspacebutton.svg);
   width: 100%;
-}
-
-.ourspace-button:hover {
-  background-image: url(../imgs/ourspacebutton-active.svg);
-  cursor: pointer;
+  &:hover {
+    background-image: url(../imgs/ourspacebutton-active.svg);
+    cursor: pointer;
+  }
 }
 
 .ourspace-image {
@@ -92,11 +95,10 @@ background-image: url(../imgs/saw.svg);
   height: 120px;
   background-image: url(../imgs/activitiesbutton.svg);
   width: 100%;
-}
-
-.activities-button:hover {
-  background-image: url(../imgs/activitiesbutton-active.svg);
-  cursor: pointer;
+  &:hover {
+    background-image: url(../imgs/activitiesbutton-active.svg);
+    cursor: pointer;
+  }
 }
 
 .activities-image {
@@ -107,8 +109,7 @@ background-image: url(../imgs/saw.svg);
 }
 
 .footer {
-  display: flex;
-  align-items: center;
+  @include flexCenter;
   height: 120px;
   background-color: $lightyellow;
   background-image: url(../imgs/footer.svg);
