@@ -1,0 +1,41 @@
+@mixin backgroundCenter {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  margin: auto;
+  width: 320px;
+  background-color: #F4EEDC;
+}
+
+.mobile-logo {
+  display: flex;
+  height: 120px;
+}
+
+.hammer {
+  @include backgroundCenter;
+  width: 25%;
+  height: inherit;
+  background-image: url(../imgs/hammer.svg);
+}
+
+.mobile-logo-text {
+  @include backgroundCenter;
+  width: 50%;
+  height: inherit;
+  background-image: url(../imgs/logotext.svg);
+
+}
+
+.saw {
+@include backgroundCenter;
+width: 25%;
+height: inherit;
+background-image: url(../imgs/saw.svg);
+}

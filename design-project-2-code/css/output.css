@@ -1,0 +1,34 @@
+body {
+  margin: 0; }
+
+.wrapper {
+  margin: auto;
+  width: 320px;
+  background-color: #F4EEDC; }
+
+.mobile-logo {
+  display: flex;
+  height: 120px; }
+
+.hammer {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 25%;
+  height: inherit;
+  background-image: url(../imgs/hammer.svg); }
+
+.mobile-logo-text {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: inherit;
+  background-image: url(../imgs/logotext.svg); }
+
+.saw {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 25%;
+  height: inherit;
+  background-image: url(../imgs/saw.svg); }
+
+/*# sourceMappingURL=output.css.map */
