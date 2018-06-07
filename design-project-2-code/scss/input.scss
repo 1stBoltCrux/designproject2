@@ -8,21 +8,96 @@
   align-items: center;
 }
 
+@mixin mediaQueryMin($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@mixin mediaQueryMax($size) {
+  @media screen and (max-width: $size) {
+    @content;
+  }
+}
+
 $lightyellow: #F4EEDC;
 
 body {
+  font-family: "futura", sans-serif;
   margin: 0;
 }
 
+.splash {
+  margin: auto;
+  display: block;
+  height: 1024px;
+  width: 320px;
+  background-image: url(../imgs/fullfrontpiece.svg);
+  &:hover {
+    cursor: pointer;
+  }
+}
+
 .wrapper {
+  display: none;
   margin: auto;
   width: 320px;
-  background-color: $lightyellow
+  background-color: $lightyellow;
+  @include mediaQueryMin(768px) {
+    width: 624px;
+  }
+}
+
+.tablet-logo {
+    height: 186px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    @include mediaQueryMax(768px) {
+      display: none;
+    }
+}
+
+.tablet-text-container {
+  background-color: #E7DAB3;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 10% 0 10% 0;
+}
+
+.tablet-frontlady {
+  @include backgroundCenter;
+  height: inherit;
+  background-image: url(../imgs/frontlady-tablet.svg);
+  width: 20%;
+  margin-left: 12%;
+}
+
+.tablet-logo-text {
+  @include backgroundCenter;
+  height: 186px;
+  width: 35%;
+  background-image: url(../imgs/logotext.svg);
+}
+
+.tablet-flavor-text {
+  text-shadow: 1px 1px 1px #4F4E4A;
+  color: #8ABACF;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 186px;
+  width: 40%;
 }
 
 .mobile-logo {
   display: flex;
   height: 120px;
+  @include mediaQueryMin(768px) {
+  display: none;
+  }
 }
 
 .hammer {
@@ -52,6 +127,9 @@ background-image: url(../imgs/saw.svg);
   height: 120px;
   background-image: url(../imgs/shakehands.svg);
   width: 100%;
+  @include mediaQueryMin(768px) {
+  display: none;
+  }
 }
 
 .amenities-button {
@@ -62,6 +140,14 @@ background-image: url(../imgs/saw.svg);
   &:hover {
     background-image: url(../imgs/amenitiesbutton-active.svg);
     cursor: pointer;
+  }
+  @include mediaQueryMin(768px) {
+    background-image: url(../imgs/tabletamenities.svg);
+    height: 75px;
+    &:hover {
+      background-image: url(../imgs/tabletamenities-active.svg);
+      cursor: pointer;
+    }
   }
 }
 
@@ -81,6 +167,14 @@ background-image: url(../imgs/saw.svg);
     background-image: url(../imgs/ourspacebutton-active.svg);
     cursor: pointer;
   }
+  @include mediaQueryMin(768px) {
+    background-image: url(../imgs/tabletourspace.svg);
+    height: 75px;
+    &:hover {
+      background-image: url(../imgs/tabletourspace-active.svg);
+      cursor: pointer;
+    }
+  }
 }
 
 .ourspace-image {
@@ -99,6 +193,14 @@ background-image: url(../imgs/saw.svg);
     background-image: url(../imgs/activitiesbutton-active.svg);
     cursor: pointer;
   }
+  @include mediaQueryMin(768px) {
+    background-image: url(../imgs/activitiestablet.svg);
+    height: 75px;
+    &:hover {
+      background-image: url(../imgs/activities-active.svg);
+      cursor: pointer;
+    }
+  }
 }
 
 .activities-image {
@@ -110,6 +212,7 @@ background-image: url(../imgs/saw.svg);
 
 .footer {
   @include flexCenter;
+  @include backgroundCenter;
   height: 120px;
   background-color: $lightyellow;
   background-image: url(../imgs/footer.svg);
