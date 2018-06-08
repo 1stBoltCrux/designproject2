@@ -5,9 +5,6 @@ body {
   font-family: "futura", sans-serif;
   margin: 0; }
 
-.hideSite {
-  display: block; }
-
 .splash {
   margin: 1vw auto 1vw auto;
   display: block;
@@ -290,8 +287,8 @@ body {
 
 #link-image {
   background-image: url(../imgs/hipsterregret1);
-  background-repeat: no-repeat;
   background-size: 130%;
-  background-size: cover; }
+  background-repeat: no-repeat;
+  background-position: center; }
 
 /*# sourceMappingURL=output.css.map */

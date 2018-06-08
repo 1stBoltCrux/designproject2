@@ -1,3 +1,5 @@
+// VVV  SASS MIXINS AND VARIABLES  VVV
+
 @mixin backgroundCenter {
   background-repeat: no-repeat;
   background-position: center;
@@ -22,6 +24,8 @@
 
 $lightyellow: #F4EEDC;
 
+//  VVVVV MAIN SITE  VVVVV
+
 p {
   margin: 0;
 }
@@ -29,10 +33,6 @@ p {
 body {
   font-family: "futura", sans-serif;
   margin: 0;
-}
-
-.hideSite {
-  display: block;
 }
 
 .splash {
@@ -55,21 +55,21 @@ body {
     width: 624px;
   }
   @include mediaQueryMin(1024px) {
-  width: 775px;
+    width: 775px;
   }
-    @include mediaQueryMin(1440px) {
+  @include mediaQueryMin(1440px) {
     width: 962px;
-    }
+  }
 }
 
 .tablet-logo {
-    height: 186px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    @include mediaQueryMax(768px) {
-      display: none;
-    }
+  height: 186px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  @include mediaQueryMax(768px) {
+    display: none;
+  }
 }
 
 .tablet-text-container {
@@ -80,11 +80,11 @@ body {
   width: 100%;
   margin: 10% 0 10% 0;
   @include mediaQueryMin(1024px) {
-  margin: 8% 0 8% 0;
-}
-@include mediaQueryMin(1440px) {
-margin: 5% 0 5% 0;
-}
+    margin: 8% 0 8% 0;
+  }
+  @include mediaQueryMin(1440px) {
+    margin: 5% 0 5% 0;
+  }
 }
 
 .tablet-frontlady {
@@ -94,11 +94,11 @@ margin: 5% 0 5% 0;
   width: 20%;
   margin-left: 12%;
   @include mediaQueryMin(1024px) {
-  background-image: url(../imgs/desktopfrontlady.svg);
-}
-@include mediaQueryMin(1440px) {
-background-image: url(../imgs/hdfrontlady.svg);
-}
+    background-image: url(../imgs/desktopfrontlady.svg);
+  }
+  @include mediaQueryMin(1440px) {
+    background-image: url(../imgs/hdfrontlady.svg);
+  }
 }
 
 .tablet-logo-text {
@@ -107,7 +107,7 @@ background-image: url(../imgs/hdfrontlady.svg);
   width: 35%;
   background-image: url(../imgs/logotext.svg);
   @include mediaQueryMin(1440px) {
-  background-image: url(../imgs/hdcg.svg);
+    background-image: url(../imgs/hdcg.svg);
   }
 }
 
@@ -120,7 +120,7 @@ background-image: url(../imgs/hdfrontlady.svg);
   height: 186px;
   width: 40%;
   @include mediaQueryMin(1440px) {
-  font-size: 1.3rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -131,7 +131,7 @@ background-image: url(../imgs/hdfrontlady.svg);
     cursor: pointer;
   }
   @include mediaQueryMin(768px) {
-  display: none;
+    display: none;
   }
 }
 
@@ -151,10 +151,10 @@ background-image: url(../imgs/hdfrontlady.svg);
 }
 
 .saw {
-@include backgroundCenter;
-width: 25%;
-height: inherit;
-background-image: url(../imgs/saw.svg);
+  @include backgroundCenter;
+  width: 25%;
+  height: inherit;
+  background-image: url(../imgs/saw.svg);
 }
 
 .flavor-banner {
@@ -163,7 +163,7 @@ background-image: url(../imgs/saw.svg);
   background-image: url(../imgs/shakehands.svg);
   width: 100%;
   @include mediaQueryMin(768px) {
-  display: none;
+    display: none;
   }
 }
 
@@ -185,14 +185,14 @@ background-image: url(../imgs/saw.svg);
     }
   }
   @include mediaQueryMin(1024px) {
-  background-image: url(../imgs/desktopamenities.svg);
-  height: 92px;
-  &:hover {
-    background-image: url(../imgs/desktopamenities-active.svg);
-    cursor: pointer;
+    background-image: url(../imgs/desktopamenities.svg);
+    height: 92px;
+    &:hover {
+      background-image: url(../imgs/desktopamenities-active.svg);
+      cursor: pointer;
+    }
   }
-}
-    @include mediaQueryMin(1440px) {
+  @include mediaQueryMin(1440px) {
     background-image: url(../imgs/hdamenities.svg);
     height: 115px;
     &:hover {
@@ -228,21 +228,21 @@ background-image: url(../imgs/saw.svg);
     }
   }
   @include mediaQueryMin(1024px) {
-  background-image: url(../imgs/ourspacedesktop.svg);
-  height: 92px;
-  &:hover {
-    background-image: url(../imgs/ourspacedesktop-active.svg);
-    cursor: pointer;
+    background-image: url(../imgs/ourspacedesktop.svg);
+    height: 92px;
+    &:hover {
+      background-image: url(../imgs/ourspacedesktop-active.svg);
+      cursor: pointer;
+    }
   }
-}
-@include mediaQueryMin(1440px) {
-background-image: url(../imgs/hdourspace.svg);
-height: 115px;
-&:hover {
-  background-image: url(../imgs/hdourspace-active.svg);
-  cursor: pointer;
-}
-}
+  @include mediaQueryMin(1440px) {
+    background-image: url(../imgs/hdourspace.svg);
+    height: 115px;
+    &:hover {
+      background-image: url(../imgs/hdourspace-active.svg);
+      cursor: pointer;
+    }
+  }
 }
 
 .ourspace-image {
@@ -270,20 +270,20 @@ height: 115px;
     }
   }
   @include mediaQueryMin(1024px) {
-  background-image: url(../imgs/activitiesdesktop.svg);
-  height: 92px;
-  &:hover {
-    background-image: url(../imgs/activitiesdesktop-active.svg);
-    cursor: pointer;
+    background-image: url(../imgs/activitiesdesktop.svg);
+    height: 92px;
+    &:hover {
+      background-image: url(../imgs/activitiesdesktop-active.svg);
+      cursor: pointer;
+    }
+  }@include mediaQueryMin(1440px) {
+    background-image: url(../imgs/hdactivities.svg);
+    height: 115px;
+    &:hover {
+      background-image: url(../imgs/hdactivities-active.svg);
+      cursor: pointer;
+    }
   }
-}@include mediaQueryMin(1440px) {
-background-image: url(../imgs/hdactivities.svg);
-height: 115px;
-&:hover {
-  background-image: url(../imgs/hdactivities-active.svg);
-  cursor: pointer;
-}
-}
 }
 
 .activities-image {
@@ -306,7 +306,7 @@ height: 115px;
 .footer p {
   color: #cfcdc6;
   font-family: "Futura", sans-serif;
-    margin-left: 2%;
+  margin-left: 2%;
 }
 
 // VVVV  CSS FOR HIDDEN LINK DIV  VVVVV
@@ -346,7 +346,6 @@ height: 115px;
 
 #link-image {
   background-image: url(../imgs/hipsterregret1);
-  background-repeat: no-repeat;
   background-size: 130%;
-  background-size: cover;
+  @include backgroundCenter;
 }
