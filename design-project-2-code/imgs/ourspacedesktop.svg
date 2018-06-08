@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="775px" height="93px" viewBox="0 0 775 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>ourspacedesktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ourspacedesktop">
+            <g id="tabletourspace-copy-2">
+                <rect id="Rectangle-10-Copy-7" fill-opacity="0.540449502" fill="#000000" x="0" y="0" width="773.743922" height="93"></rect>
+                <g id="ourspace" transform="translate(1.256078, 0.000000)">
+                    <g id="Group-2" transform="translate(123.444708, 0.000000)">
+                        <g id="Group-Copy-2">
+                            <rect id="Rectangle-5" x="0" y="0" width="122.67797" height="92.8332993"></rect>
+                        </g>
+                    </g>
+                    <g id="space-copy">
+                        <rect id="Rectangle" fill-opacity="0.553894928" fill="#000000" x="0" y="0" width="246.122678" height="92.8332993"></rect>
+                        <rect id="Rectangle-3" x="0" y="0" width="124.978182" height="92.8332993"></rect>
+                        <polygon id="whitefacade" stroke="#FEFEFE" stroke-width="0.628038898" points="20.7019075 5.4152758 20.7019075 59.5680337 38.7081405 58.8360506 38.7081405 36.8285034 61.4778656 38.4776815 69.7101062 36.2173511 35.8722433 32.4916548 35.8722433 57.4565259 24.6928861 57.7213917 24.6928861 10.3151492 99.9792148 28.3607294 104.276275 27.213342"></polygon>
+                        <polygon id="leftfacade" stroke="#FEFEFE" stroke-width="0.628038898" points="20.7019075 5.4152758 17.6349582 19.9474308 17.6349582 56.9899347 20.7019075 60.3416446"></polygon>
+                        <polygon id="porchtop" stroke="#FEFEFE" stroke-width="0.628038898" points="20.7019075 60.4012182 37.5753655 78.9083044 115.777334 65.4524518 56.3780466 57.2472013 38.9474351 57.2472013 38.9474351 59.5506017"></polygon>
+                        <polygon id="porchfront" stroke="#FEFEFE" stroke-width="0.628038898" points="37.5701284 78.1628165 37.5701284 92.0596885 115.777334 72.0366245 115.777334 64.9833095"></polygon>
+                        <polygon id="porchleft" stroke="#FEFEFE" stroke-width="0.628038898" points="17.6349582 57.2472013 17.6349582 64.6213214 37.5701284 92.8332993 37.5701284 78.8752635"></polygon>
+                        <polygon id="windowedface" stroke="#FEFEFE" stroke-width="0.628038898" points="55.971824 56.9825911 55.971824 40.2768059 111.176911 25.5291573 111.176911 64.2096987"></polygon>
+                        <polygon id="windowwallend" stroke="#FEFEFE" stroke-width="0.628038898" points="111.176911 25.5291573 113.477123 27.1426296 113.477123 64.2096987 111.176911 63.7499962"></polygon>
+                        <polygon id="stairs" stroke="#FEFEFE" stroke-width="0.628038898" points="35.2699165 57.2472013 28.3015673 37.1333197 24.5355941 37.1333197 24.5355941 57.2472013"></polygon>
+                        <polygon id="topwindows" stroke="#FEFEFE" stroke-width="0.628038898" points="35.4707326 32.6458079 28.3692806 37.1333197 28.3692806 23.0364679 32.991129 16.2458274 95.075427 29.6040411 69.1920145 36.3329607"></polygon>
+                        <polygon id="windowtop" stroke="#FEFEFE" stroke-width="0.628038898" points="29.9027553 36.6842885 29.9027553 23.4888165 33.6553393 17.793049 93.5419524 30.5917976 69.0749575 37.1333197 35.3713971 33.1616691"></polygon>
+                        <polygon id="leftwindow" stroke="#FEFEFE" stroke-width="0.628038898" points="34.5031792 17.793049 34.5031792 33.5836559 35.8391984 32.9502279 51.3714001 34.8124873 51.3714001 21.3230491"></polygon>
+                        <polygon id="midwindow" stroke="#FEFEFE" stroke-width="0.628038898" points="51.3714001 21.6611032 71.3065703 25.8797992 71.3065703 36.4997003 69.1175226 37.1333197 51.3714001 34.8761335"></polygon>
+                        <polygon id="rightwindow" stroke="#FEFEFE" stroke-width="0.628038898" points="85.8745792 28.546903 85.8745792 32.4524459 71.3065703 36.3597089 71.3065703 25.5291573"></polygon>
+                        <polygon id="Path-14" stroke="#FEFEFE" stroke-width="0.628038898" points="57.5052986 57.6835441 57.5052986 43.7438858 107.343224 34.0388764 107.343224 64.2096987"></polygon>
+                        <polygon id="windowinner" stroke="#FEFEFE" stroke-width="0.5" points="57.7701749 43.3222064 56.7385613 43.1132185 105.426381 33.2652656 107.343224 33.644033"></polygon>
+                        <polygon id="innerright" stroke="#FEFEFE" stroke-width="0.628038898" points="55.971824 40.227763 52.1381374 41.4151657 52.1381374 57.2472013 55.971824 57.2472013"></polygon>
+                        <polygon id="Path-15" stroke="#FEFEFE" stroke-width="0.628038898" points="52.9048747 41.7749847 39.103603 41.0013739 39.103603 57.2472013 52.9048747 57.2472013"></polygon>
+                        <path d="M0,57.2472013 L17.6349582,57.2472013" id="Path-16" stroke="#FEFEFE" stroke-width="0.628038898"></path>
+                        <path d="M112.710385,56.8603958 L245.477682,57.2472013" id="Path-17" stroke="#FEFEFE" stroke-width="0.628038898"></path>
+                    </g>
+                </g>
+                <text id="Our-Space" font-family="Futura-Bold, Futura" font-size="45.2188006" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="393.765316" y="67.1081081">Our Space</tspan>
+                </text>
+                <path d="M247.447326,56.5540541 L365.022541,56.5540541" id="Path-80-Copy-2" stroke="#979797" stroke-width="1.2560778"></path>
+                <path d="M683.799298,55.9256757 L774.786952,55.9256757" id="Path-81-Copy-2" stroke="#979797" stroke-width="1.2560778"></path>
+            </g>
+        </g>
+    </g>
+</svg>

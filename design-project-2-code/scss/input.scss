@@ -46,6 +46,9 @@ body {
   @include mediaQueryMin(768px) {
     width: 624px;
   }
+  @include mediaQueryMin(1024px) {
+  width: 775px;
+}
 }
 
 .tablet-logo {
@@ -149,6 +152,14 @@ background-image: url(../imgs/saw.svg);
       cursor: pointer;
     }
   }
+  @include mediaQueryMin(1024px) {
+  background-image: url(../imgs/desktopamenities.svg);
+  height: 92px;
+  &:hover {
+    background-image: url(../imgs/desktopamenities-active.svg);
+    cursor: pointer;
+  }
+}
 }
 
 .amenities-image {
@@ -175,6 +186,14 @@ background-image: url(../imgs/saw.svg);
       cursor: pointer;
     }
   }
+  @include mediaQueryMin(1024px) {
+  background-image: url(../imgs/ourspacedesktop.svg);
+  height: 92px;
+  &:hover {
+    background-image: url(../imgs/ourspacedesktop-active.svg);
+    cursor: pointer;
+  }
+}
 }
 
 .ourspace-image {
@@ -201,6 +220,14 @@ background-image: url(../imgs/saw.svg);
       cursor: pointer;
     }
   }
+  @include mediaQueryMin(1024px) {
+  background-image: url(../imgs/activitiesdesktop.svg);
+  height: 92px;
+  &:hover {
+    background-image: url(../imgs/activitiesdesktop-active.svg);
+    cursor: pointer;
+  }
+}
 }
 
 .activities-image {

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="775px" height="93px" viewBox="0 0 775 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <g id="tabletamenities-copy-2">
+                <g id="tabletamenities">
+                    <rect id="Rectangle-10-Copy-6" fill-opacity="0.540449502" fill="#000000" x="0" y="0" width="775" height="93"></rect>
+                    <g id="amenities">
+                        <rect id="Rectangle" fill-opacity="0.545006793" fill="#000000" x="0" y="0" width="244.045266" height="93.1733224"></rect>
+                        <g id="Group-Copy-2" stroke-width="1" transform="translate(122.022633, 0.000000)">
+                            <rect id="Rectangle-5" x="0" y="0" width="122.022633" height="93.1733224"></rect>
+                        </g>
+                        <g id="icon/amenities-copy" stroke-width="1">
+                            <rect id="Rectangle-4" opacity="0.975390625" x="0" y="0" width="122.022633" height="93.1733224"></rect>
+                            <polygon id="keyboardtop" stroke="#FFFFFF" stroke-width="0.621990369" points="86.9411262 91.2322115 32.7935827 76.867991 46.1398082 64.4448813 96.8554651 74.9268801 96.8554651 78.4208797"></polygon>
+                            <polygon id="keyboardside" stroke="#FFFFFF" stroke-width="0.621990369" points="86.9411262 91.2322115 86.9411262 89.2911006 96.8554651 74.9268801 96.8554651 78.4208797"></polygon>
+                            <polygon id="computerfront" stroke="#FFFFFF" stroke-width="0.621990369" points="49.9530155 65.2213257 96.4741444 74.9268801 96.4741444 60.5626596 49.9530155 53.5746604"></polygon>
+                            <polygon id="computerside" stroke="#FFFFFF" stroke-width="0.621990369" points="96.4741444 60.5626596 112.870936 47.7513277 112.870936 62.1155483 96.8554651 78.8091019"></polygon>
+                            <polygon id="computertop" stroke="#FFFFFF" stroke-width="0.621990369" points="112.870936 47.7513277 99.5247102 46.198439 97.9994273 47.7513277 97.9994273 49.3042164 86.9411262 56.6804378 62.9179203 52.798216 72.0696178 47.7513277 64.8245239 46.9748834 49.9530155 53.5746604 96.4741444 60.5626596"></polygon>
+                            <polygon id="monitorwhole" stroke="#FFFFFF" stroke-width="0.621990369" points="72.4509385 47.7513277 60.2486752 45.8102169 60.2486752 43.4808838 54.1475435 42.7044394 55.2915057 5.0468883 95.7115029 3.10577741 101.812635 5.0468883 101.812635 6.21155483 103.719238 8.15266571 103.719238 14.3642205 108.295087 16.6935536 106.388483 38.4339955 105.244521 39.2104399 105.244521 42.7044394 99.5247102 45.8102169 97.9994273 47.7513277 97.9994273 49.3042164 87.3224469 56.6804378 62.9179203 52.798216"></polygon>
+                            <polygon id="monitorframe" stroke="#FFFFFF" stroke-width="0.621990369" points="95.7115029 3.10577741 93.4235786 46.198439 54.1475435 42.7044394 55.2915057 5.0468883"></polygon>
+                            <polygon id="monitorinner" stroke="#FFFFFF" stroke-width="0.621990369" points="56.4354679 8.92911006 93.8048993 7.76444353 92.2796164 41.5397729 55.2915057 38.4339955"></polygon>
+                            <polygon id="monitorscreen" stroke="#FFFFFF" stroke-width="0.621990369" points="59.4860337 9.70555442 91.5169749 8.92911006 89.991692 39.9868842 58.3420715 37.269329"></polygon>
+                            <polygon id="discdrive" stroke="#FFFFFF" stroke-width="0.621990369" points="77.0267872 62.8919926 95.3301822 65.6095479 95.3301822 71.4328805 77.0267872 67.9388809"></polygon>
+                            <polygon id="keyboard1" stroke="#FFFFFF" stroke-width="0.621990369" points="43.8518838 67.9388809 73.5949007 74.5386579 66.3498068 82.6913236 36.60679 74.5386579"></polygon>
+                            <polygon id="keyboard2" stroke="#FFFFFF" stroke-width="0.621990369" points="75.1201836 74.9268801 68.2564105 83.0795458 75.1201836 85.0206567 81.2213152 76.4797688"></polygon>
+                            <polygon id="keyboard3" stroke="#FFFFFF" stroke-width="0.621990369" points="83.1279189 76.867991 77.408108 85.4088789 86.1784847 88.1264341 92.2796164 79.1973241"></polygon>
+                            <polygon id="monitorbasefront" stroke="#FFFFFF" stroke-width="0.621990369" points="60.2486752 45.8102169 91.1356542 49.3042164 91.1356542 45.8102169 60.2486752 43.4808838"></polygon>
+                            <polygon id="Path-33" stroke="#FFFFFF" stroke-width="0.621990369" points="93.4235786 46.198439 99.1433895 46.198439 101.812635 5.0468883 95.7115029 3.10577741"></polygon>
+                            <polygon id="Path-34" stroke="#FFFFFF" stroke-width="0.621990369" points="91.1356542 49.3042164 94.18622 49.3042164 99.5247102 46.198439 91.1356542 46.198439"></polygon>
+                            <path d="M0.381320729,42.7044394 L54.1475435,42.7044394" id="Path-35" stroke="#FFFFFF" stroke-width="0.621990369"></path>
+                            <polyline id="Path-36" stroke="#FFFFFF" stroke-width="0.621990369" points="105.625842 42.7044394 122.022633 42.7044394 244.179307 42.7044394"></polyline>
+                            <path d="M29.7430168,58.6215487 C34.3188656,57.7833573 36.60679,57.0069129 36.60679,56.2922156 C36.60679,55.2201697 33.9549693,54.3511047 29.7430168,54.3511047 C25.5310644,54.3511047 22.497923,55.2201697 22.497923,56.2922156 C22.497923,57.0069129 24.9129543,57.7833573 29.7430168,58.6215487 Z" id="mugtop" stroke="#FFFFFF" stroke-width="0.621990369"></path>
+                            <path d="M22.497923,56.6804378 C20.7819797,64.0566592 21.1633005,68.8447327 23.6418852,71.0446583 C27.3597623,74.3445468 32.2301231,74.6262722 35.4628278,71.0446583 C37.6179642,68.6569158 37.9992849,63.8688423 36.60679,56.6804378 C34.3824191,57.9745117 32.0309412,58.6215487 29.5523565,58.6215487 C27.0737717,58.6215487 24.7222939,57.9745117 22.497923,56.6804378 Z" id="Path-37" stroke="#FFFFFF" stroke-width="0.621990369"></path>
+                            <path d="M32.0309412,59.7862152 C33.683331,60.04503 34.509526,60.9508817 34.509526,62.5037705 C34.509526,64.0566592 33.683331,65.99777 32.0309412,68.3271031 L35.8441485,67.1624366 C36.60679,65.8683627 36.9881107,64.3154739 36.9881107,62.5037705 C36.9881107,60.692067 36.1619158,59.5274004 34.509526,59.0097709 L32.0309412,59.7862152 Z" id="Path-38" stroke="#FFFFFF" stroke-width="0.621990369"></path>
+                            <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.621990369" cx="29.3616961" cy="57.06866" rx="4.95716947" ry="1.16466653"></ellipse>
+                            <polyline id="Path-39" stroke="#FFFFFF" stroke-width="0.621990369" points="33.5562241 65.99777 30.1243376 67.3565477 32.0309412 68.7153253"></polyline>
+                        </g>
+                    </g>
+                    <text id="Amenities-Copy-2" font-family="Futura-Bold, Futura" font-size="44.7833066" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="390.53399" y="56.59016">Amenities</tspan>
+                    </text>
+                    <path d="M243.574757,42.78 L368.840289,42.78" id="Path-82-Copy-2" stroke="#979797" stroke-width="1.24398074"></path>
+                    <path d="M653.585457,44.02 L774.867205,44.02" id="Path-83-Copy-2" stroke="#979797" stroke-width="1.24398074"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

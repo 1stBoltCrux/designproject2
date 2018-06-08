@@ -19,6 +19,9 @@ body {
   @media screen and (min-width: 768px) {
     .wrapper {
       width: 624px; } }
+  @media screen and (min-width: 1024px) {
+    .wrapper {
+      width: 775px; } }
 
 .tablet-logo {
   height: 186px;
@@ -115,6 +118,13 @@ body {
       .amenities-button:hover {
         background-image: url(../imgs/tabletamenities-active.svg);
         cursor: pointer; } }
+  @media screen and (min-width: 1024px) {
+    .amenities-button {
+      background-image: url(../imgs/desktopamenities.svg);
+      height: 92px; }
+      .amenities-button:hover {
+        background-image: url(../imgs/desktopamenities-active.svg);
+        cursor: pointer; } }
 
 .amenities-image {
   height: 300px;
@@ -137,6 +147,13 @@ body {
       height: 75px; }
       .ourspace-button:hover {
         background-image: url(../imgs/tabletourspace-active.svg);
+        cursor: pointer; } }
+  @media screen and (min-width: 1024px) {
+    .ourspace-button {
+      background-image: url(../imgs/ourspacedesktop.svg);
+      height: 92px; }
+      .ourspace-button:hover {
+        background-image: url(../imgs/ourspacedesktop-active.svg);
         cursor: pointer; } }
 
 .ourspace-image {
@@ -161,6 +178,13 @@ body {
       height: 75px; }
       .activities-button:hover {
         background-image: url(../imgs/activities-active.svg);
+        cursor: pointer; } }
+  @media screen and (min-width: 1024px) {
+    .activities-button {
+      background-image: url(../imgs/activitiesdesktop.svg);
+      height: 92px; }
+      .activities-button:hover {
+        background-image: url(../imgs/activitiesdesktop-active.svg);
         cursor: pointer; } }
 
 .activities-image {
