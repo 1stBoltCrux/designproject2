@@ -10,7 +10,8 @@ function  amenitiesClick() {
   let clickAmenitiesShowing = document.getElementById('amenitiesShowing');
   let linkFlavorBanner = document.getElementById('link-flavor-banner');
   let linkButton = document.getElementById('link-button');
-
+  let linkImage = document.getElementById('link-image');
+  linkImage.style.backgroundImage = 'url(imgs/hipsterregret1.png)';
   clickAmenities.style.display = 'none';
   clickAmenitiesShowing.style.display = 'block';
   linkButton.style.backgroundImage = 'url(imgs/amenitiesbutton.svg)';
@@ -22,6 +23,8 @@ function  activitiesClick() {
   let clickAmenitiesShowing = document.getElementById('amenitiesShowing');
   let linkFlavorBanner = document.getElementById('link-flavor-banner');
   let linkButton = document.getElementById('link-button');
+  let linkImage = document.getElementById('link-image');
+  linkImage.style.backgroundImage = 'url(imgs/yogaclass.jpg)';
   linkButton.style.backgroundImage = 'url(imgs/activitiesbutton.svg)';
   linkFlavorBanner.style.backgroundImage = 'url(imgs/drawinghands.svg)';
   clickAmenities.style.display = 'none';
@@ -33,6 +36,8 @@ function ourspaceClick() {
   let clickAmenitiesShowing = document.getElementById('amenitiesShowing');
   let linkFlavorBanner = document.getElementById('link-flavor-banner');
   let linkButton = document.getElementById('link-button');
+  let linkImage = document.getElementById('link-image');
+  linkImage.style.backgroundImage = 'url(imgs/hipsterregret2.png)';
   linkButton.style.backgroundImage = 'url(imgs/ourspacebutton.svg)'
   linkFlavorBanner.style.backgroundImage = 'url(imgs/fistgroup.svg)';
   clickAmenities.style.display = 'none';

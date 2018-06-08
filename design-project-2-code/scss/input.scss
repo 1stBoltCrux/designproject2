@@ -309,6 +309,8 @@ height: 115px;
     margin-left: 2%;
 }
 
+// VVVV  CSS FOR HIDDEN LINK DIV  VVVVV
+
 .amenitiesShowing {
   margin: auto;
   width: 320px;
@@ -340,4 +342,11 @@ height: 115px;
 
 #link-flavor-banner {
   display: block;
+}
+
+#link-image {
+  background-image: url(../imgs/hipsterregret1);
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-size: cover;
 }

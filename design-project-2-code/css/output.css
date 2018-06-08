@@ -288,4 +288,10 @@ body {
 #link-flavor-banner {
   display: block; }
 
+#link-image {
+  background-image: url(../imgs/hipsterregret1);
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-size: cover; }
+
 /*# sourceMappingURL=output.css.map */
