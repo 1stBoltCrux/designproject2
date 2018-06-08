@@ -68,6 +68,9 @@ body {
   justify-content: space-around;
   width: 100%;
   margin: 10% 0 10% 0;
+  @include mediaQueryMin(1024px) {
+  margin: 8% 0 8% 0;
+}
 }
 
 .tablet-frontlady {
@@ -76,6 +79,9 @@ body {
   background-image: url(../imgs/frontlady-tablet.svg);
   width: 20%;
   margin-left: 12%;
+  @include mediaQueryMin(1024px) {
+  background-image: url(../imgs/desktopfrontlady.svg);
+}
 }
 
 .tablet-logo-text {

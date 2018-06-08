@@ -39,6 +39,9 @@ body {
   justify-content: space-around;
   width: 100%;
   margin: 10% 0 10% 0; }
+  @media screen and (min-width: 1024px) {
+    .tablet-text-container {
+      margin: 8% 0 8% 0; } }
 
 .tablet-frontlady {
   background-repeat: no-repeat;
@@ -47,6 +50,9 @@ body {
   background-image: url(../imgs/frontlady-tablet.svg);
   width: 20%;
   margin-left: 12%; }
+  @media screen and (min-width: 1024px) {
+    .tablet-frontlady {
+      background-image: url(../imgs/desktopfrontlady.svg); } }
 
 .tablet-logo-text {
   background-repeat: no-repeat;
