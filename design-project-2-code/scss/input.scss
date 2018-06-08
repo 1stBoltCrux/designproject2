@@ -22,13 +22,21 @@
 
 $lightyellow: #F4EEDC;
 
+p {
+  margin: 0;
+}
+
 body {
   font-family: "futura", sans-serif;
   margin: 0;
 }
 
+.hideSite {
+  display: block;
+}
+
 .splash {
-  margin: auto;
+  margin: 1vw auto 1vw auto;
   display: block;
   height: 1024px;
   width: 320px;
@@ -49,9 +57,9 @@ body {
   @include mediaQueryMin(1024px) {
   width: 775px;
   }
-  @include mediaQueryMin(1440px) {
-  width: 962px;
-  }
+    @include mediaQueryMin(1440px) {
+    width: 962px;
+    }
 }
 
 .tablet-logo {
@@ -111,11 +119,17 @@ background-image: url(../imgs/hdfrontlady.svg);
   align-items: center;
   height: 186px;
   width: 40%;
+  @include mediaQueryMin(1440px) {
+  font-size: 1.3rem;
+  }
 }
 
 .mobile-logo {
   display: flex;
   height: 120px;
+  &:hover {
+    cursor: pointer;
+  }
   @include mediaQueryMin(768px) {
   display: none;
   }
@@ -189,10 +203,11 @@ background-image: url(../imgs/saw.svg);
 }
 
 .amenities-image {
+  @include backgroundCenter;
   height: 300px;
   background-image: url(../imgs/hipsterregret1.png);
   background-repeat: no-repeat;
-  background-size: 130%
+  background-size: 130%;
 }
 
 .ourspace-button {
@@ -292,4 +307,37 @@ height: 115px;
   color: #cfcdc6;
   font-family: "Futura", sans-serif;
     margin-left: 2%;
+}
+
+.amenitiesShowing {
+  margin: auto;
+  width: 320px;
+  display: none;
+  background-color: $lightyellow;
+}
+
+.amenities-text {
+  margin: auto;
+  padding: 20px;
+  color: white;
+  background-color: #504e49;
+  h3 {
+    text-align: center;
+  }
+  p{
+    text-indent: 2rem;
+  }
+}
+
+#link-button {
+  height: 120px;
+  background-image: url(../imgs/amenitiesbutton.svg);
+}
+
+#link-mobile-logo {
+  display: flex;
+}
+
+#link-flavor-banner {
+  display: block;
 }
