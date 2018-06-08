@@ -48,7 +48,10 @@ body {
   }
   @include mediaQueryMin(1024px) {
   width: 775px;
-}
+  }
+  @include mediaQueryMin(1440px) {
+  width: 962px;
+  }
 }
 
 .tablet-logo {
@@ -71,6 +74,9 @@ body {
   @include mediaQueryMin(1024px) {
   margin: 8% 0 8% 0;
 }
+@include mediaQueryMin(1440px) {
+margin: 5% 0 5% 0;
+}
 }
 
 .tablet-frontlady {
@@ -82,6 +88,9 @@ body {
   @include mediaQueryMin(1024px) {
   background-image: url(../imgs/desktopfrontlady.svg);
 }
+@include mediaQueryMin(1440px) {
+background-image: url(../imgs/hdfrontlady.svg);
+}
 }
 
 .tablet-logo-text {
@@ -89,6 +98,9 @@ body {
   height: 186px;
   width: 35%;
   background-image: url(../imgs/logotext.svg);
+  @include mediaQueryMin(1440px) {
+  background-image: url(../imgs/hdcg.svg);
+  }
 }
 
 .tablet-flavor-text {
@@ -166,6 +178,14 @@ background-image: url(../imgs/saw.svg);
     cursor: pointer;
   }
 }
+    @include mediaQueryMin(1440px) {
+    background-image: url(../imgs/hdamenities.svg);
+    height: 115px;
+    &:hover {
+      background-image: url(../imgs/hdamenities-active.svg);
+      cursor: pointer;
+    }
+  }
 }
 
 .amenities-image {
@@ -200,6 +220,14 @@ background-image: url(../imgs/saw.svg);
     cursor: pointer;
   }
 }
+@include mediaQueryMin(1440px) {
+background-image: url(../imgs/hdourspace.svg);
+height: 115px;
+&:hover {
+  background-image: url(../imgs/hdourspace-active.svg);
+  cursor: pointer;
+}
+}
 }
 
 .ourspace-image {
@@ -233,6 +261,13 @@ background-image: url(../imgs/saw.svg);
     background-image: url(../imgs/activitiesdesktop-active.svg);
     cursor: pointer;
   }
+}@include mediaQueryMin(1440px) {
+background-image: url(../imgs/hdactivities.svg);
+height: 115px;
+&:hover {
+  background-image: url(../imgs/hdactivities-active.svg);
+  cursor: pointer;
+}
 }
 }
 
@@ -249,6 +284,8 @@ background-image: url(../imgs/saw.svg);
   height: 120px;
   background-color: $lightyellow;
   background-image: url(../imgs/footer.svg);
+  background-position: right;
+  margin-right: 2%;
 }
 
 .footer p {
