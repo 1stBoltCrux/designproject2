@@ -1,4 +1,6 @@
-# User Interface Design Project 2
+# User Interface Design Project 2 "Common Good"
+
+### Author - Ted Leary
 
 ## Design Inspiration
 
@@ -9,13 +11,28 @@
 
 ## Integrating the client's wishes
 
-*  The design will be inspired by Soviet propaganda - - tough to be less corporate than that!
+*  The design will be inspired by Soviet propaganda - as the client wanted to avoid "corporate" styling choices.
 * The site will focus on the information the client wanted to specifically target like amenities, activities and space.
 * Site design should appeal across the board and make people feel comfortable regardless of background - figurative art will be inclusive in nature.
 
-## Continuing work
+## Notes
 
-* Site will have desktop versions
-* site will have individual banner art for each page (instead of just the handshake)
-* more prototyping
-* color scheme will be worked out in full
+This site's first page is a clickable splash image that when clicked will show the main directory page.
+
+The full mockup is now complate in css/sass - "amenities", "ourspace" and "activities" buttons now psuedo-link to their own respective mobile-level pages via JavaScript hide/show functions.
+
+The mobile "common good" logo area now links back to the main page.
+
+## Instructions 
+
+Clone this repository from github at https://github.com/1stBoltCrux/designproject2.git
+
+
+## Technologies used
+
+* CSS/SASS
+* JavaScript
+* HTML
+* All SVG files designed in Sketch.
+
+
